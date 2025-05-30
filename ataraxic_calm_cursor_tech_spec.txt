@@ -1,0 +1,84 @@
+
+Technical Specification for Cursor Build — ATARAXIC ($calm)
+=============================================================
+
+PROJECT NAME: ATARAXIC
+TICKER: $calm
+
+GENERAL IDEA
+-------------
+A hilarious therapy-themed memecoin site with intentional chaos and offbeat irony. 
+Should feel like an accidental meeting between a ghost, a therapist, and the crypto market.
+Style from cartoons to eerie serenity — but with simplicity of structure (no mega scrolls or complex interactions).
+
+STYLE GUIDE
+------------
+- Color Palette: pastel therapy office colors + neon ghostly green and soft pink for accents
+- Font: Rounded cartoon-style headers, basic sans-serif for text
+- Atmosphere: cozy absurdity, low-effort therapy office
+- Design: minimal components, strong aesthetic, max immersion
+
+STRUCTURE OVERVIEW
+--------------------
+1. **HEADER (Centered Logo)**
+   - Image: logo.jpg
+   - Text: “ATARAXIC ($calm)”
+   - Animation: ghost icon loops in lazy floating
+
+2. **HERO BANNER (fullscreen section)**
+   - banner.png as blurred background
+   - Overlay title: "You’re not just broke. You’re transcendently calm."
+   - Button: [Join our therapy group] → links to Telegram
+   - Button: [Share trauma] → opens tweet intent with prefilled text “I just bought $calm and now I hear voices”
+
+3. **GHOST SESSION SLIDES**
+   - 3 slides, style как у mem-психотерапии
+   - Slide 1: ghost looking at chart + caption “This is fine”
+   - Slide 2: ghost therapist taking notes with checklist like “Buy $calm”, “Meditate”, “Panic again”
+   - Slide 3: “Portfolio: 0 :)” on vintage monitor
+
+4. **JOKEY TOKENOMICS BLOCK**
+   - Title: “CALMonomics”
+   - 3 Icons: Ghosts, Candles, Burned wallets
+   - Text:
+     - Supply: yes
+     - Allocation: we don’t talk about that
+     - LP: locked inside the therapist’s drawer
+
+5. **SHORT NARRATIVE SECTION**
+   - Title: “Why we exist”
+   - Text: Short story of a ghost who held too long and found peace in the red zone (funny, max 100 words)
+   - Floating gif sticker of crying ghost goes up/down while scrolling
+
+6. **FOOTER**
+   - Telegram button with hover effect (ghost face opens mouth)
+   - Twitter button with glitch effect on hover
+   - Floating candle animation repeats on background
+   - Disclaimer: “Not financial advice. Not even emotional support.”
+
+ANIMATION & INTERACTIVITY
+---------------------------
+- Cursor: glows soft green over buttons
+- Ghost emoji randomly appear every 20 seconds from edge of screen
+- Button hovers: wiggle effect + face swap if idle
+- Background: subtle floating candles SVG loop
+
+TECH REQUIREMENTS
+-------------------
+- Layout built in Cursor (React/NextJS environment)
+- Animated with Framer Motion or CSS keyframes
+- Mobile-first layout
+- Uses provided images:
+  - logo.jpg
+  - banner.png
+  - 1.png–4.png (as ghost slides and icons)
+- No backend, no blockchain data, fully front-end memeland
+
+DELIVERABLES
+-------------
+- Clean and simple index page, long-scroll disabled
+- All assets optimized
+- 100% meme energy
+- Usable on launch day for presale/mint
+
+Generated: 2025-05-29 19:31:41
